@@ -1,0 +1,207 @@
+<!-- trang chủ -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix - Browse</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="
+    https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+    " rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/main.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-nav position-fixed top-0 w-100">
+        <div class="container">
+            <a class="navbar-brand" href="/dashboard.html">PuneVie</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="/dashboard.html">Dashboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/browse.html">Browse</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Genre
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="/genre.html?type=action">Action</a></li>
+                            <li><a class="dropdown-item" href="/genre.html?type=cartoons">Cartoons</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Carousel -->
+    <div class="carousel-section">
+        <div id="rv-carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active position-relative">
+                    <img src="/assets/img/alice-in-wonderland-header.jpeg" class="d-block w-80" alt="image">
+                    <div
+                        class="carousel-item-title position-absolute w-50 end-0 top-0 h-100 d-flex justify-content-center align-items-center">
+                        <div class="text-white w-75 w-md-50">
+                            <h3 class="">Alice in Wonderland</h3>
+                            <p class="fw-lighter d-none d-md-block">"Alice in Wonderland" is a fantasy adventure film
+                                directed by Tim
+                                Burton, based on Lewis Carroll's classic novels. It follows the story of Alice, a young
+                                girl who falls down a rabbit hole into a fantastical world filled with peculiar
+                                characters and nonsensical events. Alice must navigate this strange land and confront
+                                the tyrannical Red Queen to fulfill her destiny.</p>
+                            <a href="/details.html?slug=alice-in-wonderland" class="btn btn-danger px-4">Play</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item position-relative">
+                    <img src="/assets/img/doctorstrange_lob_mas_hlf_01_3.jpeg" class="d-block w-80" alt="image">
+                    <div
+                        class="carousel-item-title position-absolute w-50 end-0 top-0 h-100 d-flex justify-content-center align-items-center">
+                        <div class="text-white w-75 w-md-50">
+                            <h3 class="">Doctor Strange</h3>
+                            <p class="fw-lighter d-none d-md-block"> "Doctor Strange" is a Marvel Cinematic Universe
+                                (MCU) film that
+                                introduces Dr. Stephen Strange, a brilliant but arrogant neurosurgeon who loses the use
+                                of his hands in a car accident. In his quest for healing, he discovers the mystical arts
+                                and trains to become a powerful sorcerer under the guidance of the Ancient One. As he
+                                delves deeper into the world of magic, Strange must confront dark forces threatening
+                                reality itself.</p>
+                            <a href="/details.html?slug=doctor-strange" class="btn btn-danger px-4">Play</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item position-relative">
+                    <img src="/assets/img/Maleficent-Mistress-of-Evil-Movie.webp" class="d-block w-80" alt="image">
+                    <div
+                        class="carousel-item-title position-absolute w-50 end-0 top-0 h-100 d-flex justify-content-center align-items-center">
+                        <div class="text-white w-75 w-md-50">
+                            <h3 class="">Maleficent</h3>
+                            <p class="fw-lighter d-none d-md-block">"Maleficent" reimagines the story of Disney's
+                                "Sleeping Beauty" from
+                                the perspective of the iconic villain, Maleficent. It explores her backstory, her
+                                relationship with Princess Aurora, and the events that led to her curse on the young
+                                princess. </p>
+                            <a href="/details.html?slug=maleficent" class="btn btn-danger px-4">Play</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item position-relative">
+                    <img src="/assets/img/princess-and-the-frog.jpeg" class="d-block w-80" alt="image">
+                    <div
+                        class="carousel-item-title position-absolute w-50 end-0 top-0 h-100 d-flex justify-content-center align-items-center">
+                        <div class="text-white w-75 w-md-50">
+                            <h3 class="">The Princess and the Frog</h3>
+                            <p class="fw-lighter d-none d-md-block">"The Princess and the Frog" is a Disney animated
+                                musical film that follows the story of Tiana, a young waitress in New Orleans who dreams
+                                of opening her own restaurant. After kissing a prince who has been turned into a frog by
+                                an evil witch doctor, Tiana herself turns into a frog and embarks on a journey through
+                                the mystical bayous of Louisiana to break the spell.</p>
+                            <a href="/details.html" class="btn btn-danger px-4">Play</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-img"></div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#rv-carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#rv-carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+
+    <!-- categories Content Section -->
+    <section class="categories-section genre-list">
+        <div class="container">
+            <h3 class="text-white">All</h3>
+            <div class="splide" id="categories-splide">
+                <div class="splide__track">
+                    <ul class="splide__list">
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- featured Content Section -->
+    <section class="featured-section genre-list">
+        <div class="container">
+            <h3 class="text-white">Action</h3>
+            <div class="splide" id="featured-splide">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trending Now Content Section -->
+    <section class="trending-now-section genre-list">
+        <div class="container">
+            <h3 class="text-white">Cartoons</h3>
+            <div class="splide" id="trending-now-splide">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer mt-auto py-3 bg-dark text-white">
+        <div class="container text-center">
+            <span class="text-secondary">&copy; 2024 Netflix</span>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"
+        integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+    <script src="
+    https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
+    "></script>
+    <script src="/assets/js/main.js"></script>
+
+    <script>
+        // khởi tạo slide 
+        getList('.categories-section .splide__list', '#categories-splide');
+
+        // khởi tạo slide theo thể loại
+        getListByGenra('.featured-section .splide__list', '#featured-splide', 'action');
+        getListByGenra('.trending-now-section .splide__list', '#trending-now-splide', 'cartoons');
+    </script>
+</body>
+
+</html>
