@@ -96,16 +96,16 @@
     "></script>
     <script src="/assets/js/main.js"></script>
     <script>
-        // lấy param từ đường dẫn để truy vấn film theo tên 
+        // get param to show movies by name
         const searchParams = new URLSearchParams(window.location.search);
         let slug = searchParams.get('slug');
 
-        // lấy film từ param trên và cập nhật thông tin lên view
+        // find movie by name and show details
         getFilmDetailsBySlug(slug, '#mv-details');
 
         setTimeout(function(){
-            // khởi tạo slide theo thể loại
-            getListByGenra('.similar-movies-section .splide__list', '#similar-movies-splide', $('#mv-genre').text());
+            // init slide by genre
+            getListByGenre('.similar-movies-section .splide__list', '#similar-movies-splide', $('#mv-genre').text());
         },1000);
     </script>
 </body>

@@ -13,7 +13,7 @@ function fetchJSONFile(path, callback) {
     httpRequest.send();
 }
 
-// khởi tạo thư viện carousel
+// init carousel
 function initSplide(idElement){
     var splide = new Splide(idElement, {
         type: "loop",
@@ -34,7 +34,7 @@ function initSplide(idElement){
     }).mount();
 }
 
-// lấy danh sách tất cả phim
+// get all movie
 function getList(parentElement, sectionSlide){
     fetchJSONFile('/assets/json/data.json', function (data) {
         let parent = $(parentElement);
@@ -43,7 +43,7 @@ function getList(parentElement, sectionSlide){
     });
 }
 
-// lấy danh sách theo thể loại 
+// get all movie by genre
 function getListByGenre(parentElement, sectionSlide, genra){
     fetchJSONFile('/assets/json/data.json', function (data) {
         let parent = $(parentElement);
@@ -53,7 +53,7 @@ function getListByGenre(parentElement, sectionSlide, genra){
     });
 }
 
-// lấy phim theo slug 
+// get one movie by slug 
 function getFilmDetailsBySlug(slug, parentElement){
     fetchJSONFile('/assets/json/data.json', function (data) {
         let film = data.find( film => film.slug == slug);
@@ -63,7 +63,7 @@ function getFilmDetailsBySlug(slug, parentElement){
     });
 }
 
-// lấy dữ liệu thêm vào parent element 
+// get list data and put into parent element 
 function getTemplate(data, parent){
     data.forEach(function (item){
         let template = `
@@ -84,7 +84,7 @@ function getTemplate(data, parent){
     });
 }
 
-// lấy dữ liệu chi tiết phim thêm vào parent element
+// get details data and put into parent element
 function getTemplateDetails(data, parent){
     let template = `
         <div class="mv-details-img">

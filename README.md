@@ -3,10 +3,14 @@
 ## aimed
  In the pursuit of creating an entertainment platform like Netflix, yet uniquely focused on facilitating user feedback, I engaged in the development of a movie-oriented website. We designed this platform to provide users with comprehensive insights and critiques related to their potential movie choices. To achieve this, I commissioned ChatGPT to outline a website framework comprising three principal segments: a welcoming landing page, a robust browsing interface, and genre-specific sections. Subsequently, I meticulously refine and tailor this framework to ensure alignment with the intended user experience and operational objectives of the platform.
 
-
+### Here is the structure that ChatGPT generated for my website: 
+**Dashboard**
  ![Dashboard page](img-demo/dashdoard.jpg)
+ **Browse**
  ![Browse page](img-demo/browse.jpg)
+ **Details**
  ![Details page](img-demo/details.jpg)
+ **Genre**
  ![Genre page](img-demo/genre.jpg)
 
 ## Website Structure and Features:

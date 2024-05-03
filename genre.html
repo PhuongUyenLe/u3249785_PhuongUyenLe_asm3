@@ -180,17 +180,17 @@
     "></script>
     <script src="/assets/js/main.js"></script>
     <script>
-        // lấy param từ đường dẫn để truy vấn film theo thể loại 
+        // get param to show movies by genre
         const searchParams = new URLSearchParams(window.location.search);
         let genra =  searchParams.get('type');
 
-        // khởi tạo slide theo thể loại
+        // init slide by genre
         getListByGenre('.categories-section .splide__list', '#categories-splide', genra);
 
-        // khởi tạo slide 
+        // init slide 
         getList('.featured-section .splide__list', '#featured-splide');
 
-        // set text theo thể loại
+        // set text 
         $('#genra-name').text(genra.charAt(0).toUpperCase() + genra.slice(1))
     </script>
 </body>
