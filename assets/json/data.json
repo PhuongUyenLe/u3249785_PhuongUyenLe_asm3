@@ -1,0 +1,182 @@
+[
+    {
+        "name": "Frozen 1",
+        "description": "\"Frozen\" is a Disney animated musical film that follows the story of two sisters, Elsa and Anna, in the kingdom of Arendelle. Elsa has magical ice powers that inadvertently plunge their kingdom into eternal winter, and Anna embarks on a journey to find her sister and save their kingdom, accompanied by rugged iceman Kristoff, his loyal reindeer Sven, and a naive snowman named Olaf.",
+        "image": "/assets/img/frozen-1.jpg",
+        "genra": "Cartoons",
+        "rate": "7.4/10 (IMDb)",
+        "slug": "frozen-1",
+        "cast": "Kristen Bell, Idina Menzel"         
+    },
+    {
+        "name": "Frozen 2",
+        "description": "In this sequel to \"Frozen,\" Elsa, Anna, Kristoff, Olaf, and Sven embark on a dangerous journey to uncover the truth about Elsa's past and save their kingdom from a mysterious threat",
+        "image": "/assets/img/frozen-2.jpg",
+        "genra": "Cartoons",
+        "rate": "6.9/10 (IMDb)",
+        "slug": "frozen-2",
+        "cast": "Kristen Bell, Idina Menzel"         
+    },
+    {
+        "name": "One Piece",
+        "description": "\"One Piece\" follows the adventures of Monkey D. Luffy and his pirate crew in search of the legendary treasure known as One Piece, as they navigate the treacherous waters of the Grand Line.",
+        "image": "/assets/img/onepiece.jpeg",
+        "genra": "Cartoons",
+        "rate": "8.7/10 (IMDb)",
+        "slug": "one-piece",
+        "cast": "Updating..."         
+    },
+    {
+        "name": "Tangled",
+        "description": "\"Tangled\" is a retelling of the classic fairy tale of Rapunzel, a young woman with long magical hair who's been trapped in a tower her whole life. She escapes with the help of a charming thief named Flynn Rider and goes on a journey to discover the truth about her past.",
+        "image": "/assets/img/tangle.webp",
+        "genra": "Cartoons",
+        "rate": "7.7/10 (IMDb)",
+        "slug": "tangled",
+        "cast": "Mandy Moore, Zachary Levi"         
+    },
+    {
+        "name": "Encanto",
+        "description": "\"Encanto\" is a Disney animated musical film set in Colombia. The story revolves around the Madrigal family, who live in a magical house in the mountains. Each member of the family possesses a unique magical gift, except for Mirabel, the protagonist. When the magic surrounding the house begins to fade, Mirabel embarks on a journey to save her family and their home.",
+        "image": "/assets/img/au_article_still_header_encanto_editorial_1365x767_tabl_c74f5c52.jpeg",
+        "genra": "Cartoons",
+        "rate": "7.5/10 (IMDb)",
+        "slug": "encanto",
+        "cast": "Stephanie Beatriz"         
+    },
+    {
+        "name": "Mean Girls",
+        "description": "\"Mean Girls\" follows Cady Heron, a high school student who becomes entangled in the social politics of her new school after befriending a group of popular girls called \"The Plastics.\" The film explores themes of friendship, identity, and the harsh realities of high school cliques.",
+        "image": "/assets/img/mean-girls.jpg",
+        "genra": "Cartoons",
+        "rate": "7/10 (IMDb)",
+        "slug": "mean-girls",
+        "cast": "Lindsay Lohan, Rachel McAdams, Lacey Chabert, Amanda Seyfried"         
+    },
+    {
+        "name": "Beauty and the Beast",
+        "description": "Disney's live-action adaptation of the classic fairy tale follows Belle, a young woman who befriends the enchanted inhabitants of a castle, including a cursed prince who's been transformed into a beast. As Belle and the Beast grow closer, they learn to see beyond appearances and find true love.",
+        "image": "/assets/img/beauty.jpeg",
+        "genra": "Cartoons",
+        "rate": "7.1/10 (IMDb)",
+        "slug": "beauty-and-the-beast",
+        "cast": "Emma Watson, Dan Stevens"         
+    },
+    {
+        "name": "Luca",
+        "description": "\"Luca\" is a Disney-Pixar animated coming-of-age film set in a beautiful seaside town on the Italian Riviera. It follows the story of a young sea monster named Luca who experiences a life-changing summer with his newfound best friend, Alberto. Together, they explore the town, enjoy human activities, and participate in a local competition, all while hiding Luca's true identity as a sea creature from the surface world.",
+        "image": "/assets/img/luca.png",
+        "genra": "Cartoons",
+        "rate": "7.5/10 (IMDb)",
+        "slug": "beauty-and-the-beast",
+        "cast": "Jacob Tremblay, Jack Dylan Grazer"         
+    },
+    {
+        "name": "Maleficent",
+        "description": "\"Maleficent\" reimagines the story of Disney's \"Sleeping Beauty\" from the perspective of the iconic villain, Maleficent. It explores her backstory, her relationship with Princess Aurora, and the events that led to her curse on the young princess.",
+        "image": "/assets/img/Maleficent-Mistress-of-Evil-Movie.webp",
+        "genra": "Cartoons",
+        "rate": "7/10 (IMDb)",
+        "slug": "maleficent",
+        "cast": "Angelina Jolie, Elle Fanning"         
+    },
+    {
+        "name": "The Princess and the Frog",
+        "description": "\"The Princess and the Frog\" is a Disney animated musical film that follows the story of Tiana, a young waitress in New Orleans who dreams of opening her own restaurant. After kissing a prince who has been turned into a frog by an evil witch doctor, Tiana herself turns into a frog and embarks on a journey through the mystical bayous of Louisiana to break the spell.",
+        "image": "/assets/img/princess-and-the-frog.jpeg",
+        "genra": "Cartoons",
+        "rate": "7.1/10 (IMDb)",
+        "slug": "the-princess-and-the-frog",
+        "cast": "Anika Noni Rose"         
+    },
+    {
+        "name": "Alice in Wonderland",
+        "description": "\"Alice in Wonderland\" is a fantasy adventure film directed by Tim Burton, based on Lewis Carroll's classic novels. It follows the story of Alice, a young girl who falls down a rabbit hole into a fantastical world filled with peculiar characters and nonsensical events. Alice must navigate this strange land and confront the tyrannical Red Queen to fulfill her destiny.",
+        "image": "/assets/img/alice-in-wonderland-header.jpeg",
+        "genra": "Cartoons",
+        "rate": "6.4/10 (IMDb)",
+        "slug": "alice-in-wonderland",
+        "cast": "Mia Wasikowska, Johnny Depp"         
+    },
+    {
+        "name": "The Little Mermaid",
+        "description": "\"The Little Mermaid\" is a Disney animated musical film that tells the story of Ariel, a young mermaid princess who dreams of living on land and falls in love with a human prince named Eric. She makes a deal with the sea witch Ursula to become human in exchange for her voice, but soon realizes the price she has to pay for her dream.",
+        "image": "/assets/img/mermaid.jpeg",
+        "genra": "Cartoons",
+        "rate": "7.6/10 (IMDb)",
+        "slug": "the-little-mermaid",
+        "cast": "Jodi Benson"         
+    },
+    {
+        "name": "Iron Man",
+        "description": "\"Iron Man\" is the first film in the Marvel Cinematic Universe (MCU) and follows the story of Tony Stark, a billionaire industrialist and genius inventor who creates a powered exoskeleton and becomes the armored superhero known as Iron Man. Stark must confront his own past as he battles against enemies who seek to misuse his technology for their own nefarious purposes.",
+        "image": "/assets/img/iron-man.jpeg",
+        "genra": "Action",
+        "rate": "7.9/10 (IMDb)",
+        "slug": "iron-man",
+        "cast": "Robert Downey Jr."         
+    },
+    {
+        "name": "Captain America: The First Avenger",
+        "description": "\"Captain America: The First Avenger\" tells the origin story of Steve Rogers, a frail young man who is transformed into the super-soldier Captain America during World War II. Rogers battles against the villainous organization Hydra and its leader, the Red Skull, while also grappling with the responsibilities of being a symbol of hope and freedom.",
+        "image": "/assets/img/captain.webp",
+        "genra": "Action",
+        "rate": "6.9/10 (IMDb)",
+        "slug": "captain-ameria",
+        "cast": "Chris Evans"         
+    },
+    {
+        "name": "The Incredible Hulk (2008)",
+        "description": "\"The Incredible Hulk\" follows the story of scientist Bruce Banner, who, after being exposed to gamma radiation, transforms into the giant, green-skinned Hulk whenever he experiences intense emotions. As Banner tries to find a cure for his condition, he is pursued by the military and must also confront the villainous Abomination.",
+        "image": "/assets/img/hulk.jpeg",
+        "genra": "Action",
+        "rate": "6.9/10 (IMDb)",
+        "slug": "the-incredible-hulk",
+        "cast": "Edward Norton"         
+    },
+    {
+        "name": "Doctor Strange",
+        "description": "\"Doctor Strange\" is a Marvel Cinematic Universe (MCU) film that introduces Dr. Stephen Strange, a brilliant but arrogant neurosurgeon who loses the use of his hands in a car accident. In his quest for healing, he discovers the mystical arts and trains to become a powerful sorcerer under the guidance of the Ancient One. As he delves deeper into the world of magic, Strange must confront dark forces threatening reality itself.",
+        "image": "/assets/img/doctorstrange_lob_mas_hlf_01_3.jpeg",
+        "genra": "Action",
+        "rate": "7.5/10 (IMDb)",
+        "slug": "doctor-strange",
+        "cast": "Benedict Cumberbatch"         
+    },
+    {
+        "name": "Black Panther",
+        "description": "\"Black Panther\" is a Marvel Cinematic Universe (MCU) film that follows the story of T'Challa, the prince of the African nation of Wakanda, who becomes the king and protector of his people following the death of his father. As the Black Panther, T'Challa must defend Wakanda from external threats while also facing internal challenges to his leadership. The film explores themes of identity, heritage, and responsibility.",
+        "image": "/assets/img/black-panther.webp",
+        "genra": "Action",
+        "rate": "7.3/10 (IMDb)",
+        "slug": "black-pander",
+        "cast": "Chadwick Boseman"         
+    },
+    {
+        "name": "Thor",
+        "description": "\"Thor\" follows the story of the Norse god of thunder, Thor, who is banished from Asgard to Earth by his father Odin as punishment for his arrogance. Stripped of his powers, Thor must learn humility and prove himself worthy to wield his enchanted hammer, Mjolnir, while also facing threats from his brother Loki and the forces of darkness.",
+        "image": "/assets/img/thor.jpeg",
+        "genra": "Action",
+        "rate": "7/10 (IMDb)",
+        "slug": "thor",
+        "cast": "Chris Hemsworth"         
+    },
+    {
+        "name": "Spider-Man",
+        "description": "\"Spider-Man\" depicts the story of Peter Parker, a high school student who gains spider-like abilities after being bitten by a genetically modified spider. Using his newfound powers, Peter becomes the masked superhero Spider-Man and must balance his responsibilities as a crime-fighter with his personal life, all while facing off against villains like the Green Goblin, Doctor Octopus, and Venom.",
+        "image": "/assets/img/spider-man.jpeg",
+        "genra": "Action",
+        "rate": "8.4/10 (IMDb)",
+        "slug": "spider-man",
+        "cast": "Tobey Maguire, Andrew Garfield, and Tom Holland"         
+    },
+    {
+        "name": "Transformers",
+        "description": "\"Transformers\" is a franchise centered around the conflict between two factions of alien robots, the Autobots and the Decepticons, who can transform into vehicles, weapons, and other forms. The movies follow the battles between these robots on Earth, with human allies caught in the middle. The series is known for its spectacular visual effects and intense action sequences.",
+        "image": "/assets/img/tranformer.jpeg",
+        "genra": "Action",
+        "rate": "7/10 (IMDb)",
+        "slug": "transformers",
+        "cast": "Shia LaBeouf, Mark Wahlberg, and Hailee Steinfeld"         
+    }
+]

@@ -1,0 +1,167 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background: rgb(35, 35, 35);
+}
+
+.w-80{
+  width: 80% !important;
+}
+
+.vh-50{
+  height: 50vh;
+}
+
+.vh-75{
+  height: 75vh;
+}
+.categories-section, 
+.featured-section, .trending-now-section, 
+.similar-movies-section, .dashboard-section{
+  margin-top: .5rem;
+}
+
+.navbar{
+  z-index: 999;
+}
+
+.bg-nav{
+  background-color: rgb(35, 35, 35);
+}
+
+.banner-bg{
+  z-index: -1;
+}
+
+.banner-img{
+  background: rgb(0 0 0 / 40%);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+}
+
+.carousel-img{
+  background: rgb(0 0 0 / 25%);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.5) 100%);
+}
+
+.carousel-item-title{
+  z-index: 1;
+  background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgb(0, 0, 0, .8), rgb(0, 0, 0, 1), rgb(0, 0, 0, 1));
+}
+
+
+.banner-section, .carousel-section, .movie-details-section{
+  margin-top: 3.3rem;
+}
+
+.similar-movies-section{
+  margin-top: 1rem;
+}
+
+.dashboard-section{
+  min-height: 100%;
+  padding: 6rem 0;
+}
+
+.carousel-section{
+  min-height: 100%;
+}
+
+.banner-section{
+  min-height: 32rem;
+  padding: 10rem 1rem 3rem;
+}
+
+.genre-list{
+  margin-bottom: 3rem;
+}
+
+.splide__arrow{
+  top: 40%;
+}
+
+.genre-list .card{
+  height: 8rem;
+}
+
+.item-description{
+  color: white;
+  width: 100%;
+  bottom: 0;
+  background: #00000066;
+  top: unset;
+  left: unset;
+  border-radius: unset;
+}
+
+.mv-details-content{
+  
+  padding: 1rem;
+}
+
+/* sm */
+@media screen and (min-width: 576px){
+
+}
+
+/* md */
+@media screen and (min-width: 768px){
+  .banner-section{
+    min-height: 38rem;
+    padding: 13rem 0 3rem;
+  }
+
+  .genre-list .card{
+    height: 10rem;
+  }
+
+  .mv-details-content{
+    background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0), rgb(0, 0, 0, .8), rgb(0, 0, 0, 1), rgb(0, 0, 0, 1));
+    position: absolute;
+    bottom: -140px;
+    padding: 2rem ;
+  }
+
+  .similar-movies-section{
+    margin-top: 10rem;
+  }
+}
+
+/* lg */
+@media screen and (min-width: 992px){
+  .banner-section{
+    min-height: 43rem;
+    padding: 15rem 0 4rem;
+  }
+
+  .carousel-item{
+    max-height: 30rem;
+  }
+
+  .genre-list .card{
+    height: 12rem;
+  }
+
+  .mv-details-content{
+    position: absolute;
+    bottom: -100px;
+    padding: 5rem ;
+  }
+
+  .similar-movies-section{
+    margin-top: 8rem;
+  }
+}
